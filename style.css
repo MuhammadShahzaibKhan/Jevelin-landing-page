@@ -1,0 +1,320 @@
+*{
+    font-family: 'Jost', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section 1 Style Start */
+
+.sec1-main{
+    background-image: url('images/sec1-bg.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+/* Navbar Style Start */
+
+.navbar-toggler{
+    color: #FFF !important;
+    background-color: #FFF !important;
+}
+
+.nav-item{
+    padding: 0 1.2rem !important;
+}
+
+.nav-link{
+    font-size: 15px !important;
+    text-transform:  uppercase !important;
+}
+
+/* Navbar Style End */
+
+.sec1-display-txt{
+    text-transform: uppercase;
+    margin-top: 120px;
+}
+
+.sec1-txt1{
+    color: #fe3939;
+}
+
+.sec1-txt2{
+    color: #8f94a6;
+}
+
+.sec1-txt3{
+    color: #FFF;
+    font-size: 10em;
+    margin-top: -35px;
+}
+
+.sec1-img{
+    margin-top: -9%;
+}
+
+.sec1-btn{
+    position: relative;
+    bottom: 400px;
+}
+
+.btn-clr{
+    background-color: #fe3939;
+}
+
+.btn-clr:hover{
+    border-color: #FFF;
+    border-width: 3px;
+    background-color: transparent;
+}
+
+/* Section 1 Style End */
+
+/* Section 2 Style Start */
+
+.sec2-btn{
+    background-color: #000;
+    color: #fff;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.sec2-txt1{
+    color: #989797;
+    line-height: 1.7;
+    font-size: 19px;
+    margin-top: 50px;
+}
+
+.sec2-txt2{
+    color: #5e5d5d;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/* Section 2 Style End */
+
+/* Section 3 Style Start */
+
+.sec3-heading{
+    margin-bottom: 80px;
+}
+
+.sec3-btn{
+    background-color: #fe3939;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.card-btns a{
+    text-decoration: none;
+    padding: 5px 14px;
+    border-radius: 20px;
+    color: #7b7b7b;
+    border: 2px solid #7b7b7b;
+}
+
+.card-txt{
+    color: #5e5d5d;
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+.card-learn a{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.card-learn a:hover{
+    background-color: #fe3939;
+}
+
+.sm-card-main{
+    background-color: #fbf8f6;
+    padding: 35px 20px;
+    border-radius: 20px;
+}
+
+.sm-card-btn a{
+    background-color: #fe3939;
+    color: #fff;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.sm-add a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.sm-add a:hover{
+    color: #fe3939;
+}
+
+/* Section 3 Style End */
+
+/* Section 4 Style Start */
+
+.sec4-row{
+    margin-right: 0;
+}
+
+.sec4-main{
+    background-color: #191a1d !important;
+}
+
+.sec4-btn{
+    background-color: #fe3939;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.sec4-btn1 button{
+    background-color: transparent !important;
+    color: #fff;
+    padding: 8px 15px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    text-decoration: none;
+}
+
+.sec4-btn1 button:hover{
+    background-color: #fe3939 !important;
+}
+
+.sec4-bottom-txt{
+    margin: 150px 0 0 200px;
+}
+
+/* Section 4 Style End */
+
+/* Section 5 Style Start */
+
+.sec5-card-main{
+    background-color: #fcf8f7;
+    padding: 20px;
+    margin: 40px 0;
+    border-radius: 10px;
+}
+
+
+.sec5-card-btn a{
+    background-color: #fe3939;
+    color: #fff;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Section 5 Style End */
+
+/* Section 7 Style Start */
+
+.sec7-txt1 h2{
+    color: #fe3939;
+    font-size: 3em !important;
+}
+
+/* Section 7 Style End */
+
+/* Section 8 Style Start */
+
+.sec8-row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.sec8-col{
+    padding-right: 1px;
+    padding-left: 1px;
+}
+/* Section 8 Style End */
+
+/* Footer Style Start */
+
+.footer-txt{
+    color: #989797;
+    line-height: 1.5;
+}
+
+.footer-list ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list li{
+    color: #515050;
+    margin: 10px 0;
+}
+
+.social-clr{
+    color: #ff3939 !important;
+}
+
+.footer-email input{
+    background-color: #f4f4f4;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.footer-email input::placeholder{
+    text-align: center;
+    color: #c2c2c2;
+}
+
+.footer-sub-btn{
+    background-color: #fe3939;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.footer-sub-btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.footer-sub-txt{
+    color: #858585;
+}
+
+/* Footer Style End */
+
+/* Media Query */
+
+@media  (max-width: 576px) {
+    .sec4-bottom-txt{
+        margin: 150px 0 0 0;
+    }
+    
+    .sec1-txt3{
+        font-size: 6em;
+    }
+
+    .sec1-btn{
+        bottom: 70px;
+    }
+ }
